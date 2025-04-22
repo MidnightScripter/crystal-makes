@@ -1,54 +1,40 @@
-# React + TypeScript + Vite
+# CrystalMakes.com - Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My personal porfolio website and online resume
 
-Currently, two official plugins are available:
+## Summary
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A work in progress for my personal portfolio website
 
-## Expanding the ESLint configuration
+## Author Info
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+[Crystal C - Email](mailto:crystal.m.clark@proton.me)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+[Github(@MidnightScripter)](https://github.com/MidnightScripter)
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+[LinkedIn](https://www.linkedin.com/in/crystal-clark)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Quick Package Summary
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+- React
+  - Vite project creation
+  - [Vite svgr (for better svg import)](https://www.npmjs.com/package/vite-plugin-svgr)
+  - [React router](https://www.npmjs.com/package/react-router)
+  - [React Classnames (easy class combining and handling)](https://www.npmjs.com/package/classnames)
+  - [React Loading Skeleton (lightweight skeleton loader)](https://www.npmjs.com/package/react-loading-skeleton)
+- CSS Modules (Vite Built-in)
+- TypeScript
+
+## Running Locally
+
+npm run dev
+
+Normally opens on http://localhost:5173 by default
+
+## Icons and Images
+
+Icons from [material.io](https://fonts.google.com/icons?selected=Material+Symbols+Outlined)
+
+## Contributing
+
+Special thanks to Sith-master [Alfonso](http://alfonsocreates.com) for design and proofreading help
